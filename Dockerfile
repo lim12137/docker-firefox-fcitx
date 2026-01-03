@@ -1,4 +1,4 @@
-FROM jlesage/firefox:v24.05.1
+FROM jlesage/firefox:latest
 
 # Add the edge/testing repository
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
